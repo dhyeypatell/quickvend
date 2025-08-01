@@ -1,0 +1,7 @@
+# IntelliJ IDEA
+out/
+.idea
+quickvend.iml
+
+# Mac OS
+.DS_Store

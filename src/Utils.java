@@ -1,10 +1,12 @@
 public class Utils {
   public static boolean isCodeValid(String code) {
-    return code.trim().length() == 2 && code.trim().matches("[A-Z0-9]+");
+    code = code.trim();
+    return code.length() == 2 && code.matches("[A-Z0-9]+");
   }
 
   public static boolean isNameValid(String name) {
-    return name.trim().length() <= 50 && name.trim().matches("[a-zA-Z0-9 ]+");
+    name = name.trim();
+    return name.length() <= 50 && name.matches("[a-zA-Z0-9 ]+");
   }
 
   public static boolean isPriceValid(double price) {

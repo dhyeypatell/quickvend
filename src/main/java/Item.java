@@ -40,23 +40,23 @@ public class Item {
   }
 
   public String getCode() {
-    return code;
+    return this.code;
   }
 
   public String getName() {
-    return name;
+    return this.name;
   }
 
   public String getType() {
-    return type;
+    return this.type;
   }
 
   public double getPrice() {
-    return price;
+    return this.price;
   }
 
   public int getStock() {
-    return stock;
+    return this.stock;
   }
 
   public boolean setCode(String code) {
@@ -82,7 +82,7 @@ public class Item {
       return false;
     }
 
-    type = ItemTypes.getTypeByIndex(index);
+    this.type = ItemTypes.getTypeByIndex(index);
     return true;
   }
 

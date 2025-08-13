@@ -17,4 +17,10 @@ public class Utils {
   public static boolean isStockValid(int stock, String type) {
     return stock >= 0 && stock <= ItemTypes.getMaxStockByType(type);
   }
+
+  public static boolean isStockValid(int stock, int typeIndex) {
+    return stock >= 0
+        && ItemTypes.doesTypeExist(typeIndex)
+        && stock <= ItemTypes.getMaxStockByTypeIndex(typeIndex);
+  }
 }

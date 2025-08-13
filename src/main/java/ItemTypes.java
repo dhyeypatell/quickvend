@@ -31,8 +31,8 @@ public class ItemTypes {
     return MAX_STOCK.get(type);
   }
 
-  public static int getMaxStockByTypeIndex(int typeIndex) {
-    return MAX_STOCK.get(getTypeByIndex(typeIndex));
+  public static int getMaxStockByTypeIndex(int index) {
+    return MAX_STOCK.get(getTypeByIndex(index));
   }
 
   public static void displayTypes() {

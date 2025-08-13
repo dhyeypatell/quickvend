@@ -19,6 +19,10 @@ public class ItemTypes {
     return map;
   }
 
+  public static boolean doesTypeExist(int index) {
+    return index >= 0 && index < TYPE_LIST.size();
+  }
+
   public static String getTypeByIndex(int index) {
     return TYPE_LIST.get(index);
   }
@@ -27,8 +31,8 @@ public class ItemTypes {
     return MAX_STOCK.get(type);
   }
 
-  public static boolean doesTypeExist(int index) {
-    return index >= 0 && index < TYPE_LIST.size();
+  public static int getMaxStockByTypeIndex(int typeIndex) {
+    return MAX_STOCK.get(getTypeByIndex(typeIndex));
   }
 
   public static void displayTypes() {

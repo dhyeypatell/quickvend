@@ -1,0 +1,7 @@
+{
+  "invalidCode": "Invalid item code.",
+  "invalidName": "Invalid item name.",
+  "invalidType": "Invalid item type.",
+  "invalidPrice": "Invalid item price.",
+  "invalidStock": "Invalid item stock."
+}

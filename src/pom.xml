@@ -10,8 +10,7 @@
     <packaging>jar</packaging>
     <name>QuickVend</name>
     <description>
-        This app is a vending machine simulator, and this POM file is used to install app
-        dependencies.
+        This app is a vending machine simulator, and this POM file is used to install app dependencies.
     </description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

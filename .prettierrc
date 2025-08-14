@@ -1,0 +1,7 @@
+{
+    "plugins": ["prettier-plugin-xml"],
+    "tabWidth": 4,
+    "singleQuote": false,
+    "printWidth": 80,
+    "bracketSameLine": false
+}

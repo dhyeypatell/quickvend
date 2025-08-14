@@ -1,0 +1,22 @@
+{
+    "name": "quickvend",
+    "version": "1.0.0",
+    "description": "This app is a console-based vending machine simulator.",
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dhyeypatell/quickvend.git"
+    },
+    "author": "Dhyey",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dhyeypatell/quickvend/issues"
+    },
+    "homepage": "https://github.com/dhyeypatell/quickvend#readme",
+    "devDependencies": {
+        "prettier": "^3.6.2",
+        "prettier-plugin-xml": "^0.1.0"
+    }
+}

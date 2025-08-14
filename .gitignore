@@ -1,7 +1,14 @@
 # IntelliJ IDEA
 out/
-.idea
+target/
 quickvend.iml
+.idea
+
+# Dev dependencies
+node_modules/
+
+# Lock files
+package-lock.json
 
 # Mac OS
 .DS_Store

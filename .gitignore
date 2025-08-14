@@ -4,7 +4,7 @@ target/
 quickvend.iml
 .idea
 
-#Dev dependencies
+# Dev dependencies
 node_modules/
 
 # Lock files
